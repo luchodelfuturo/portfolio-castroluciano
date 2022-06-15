@@ -41,6 +41,7 @@ const slidesInfo = [
       desc: "App - Lista de Tareas",
       cat:'App | React + Css',
       link: "https://github.com/luchocas234/app_lista_tareas",
+      code:"https://luchocas234.github.io/app_lista_tareas/",
       info:t("projects.ToDoApp")
       
   },
@@ -50,6 +51,7 @@ const slidesInfo = [
       desc: "App - Adivina el Avión",
       cat:'App | React + Css',
       link: "https://github.com/luchocas234/aeronauticswords",
+      code:"https://luchocas234.github.io/aeronauticswords/",
       info:t("projects.AppAviones")
   },
   {
@@ -74,6 +76,7 @@ const slidesInfo = [
       desc:"Website - Alpha Pergamino",
       cat:'Website | React + Tailwindcss',
       link: "https://github.com/luchocas234/alpha-pergamino",
+      code:"https://luchocas234.github.io/alpha-pergamino/",
       info:t("projects.AlphaWeb")
   }
 ]
@@ -150,21 +153,27 @@ const slidesInfo = [
               <p className="px-4 text-center">{slide.info}
               </p>
               <div className="flex sm:flex-col gap-2 absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-110 ">
-              {slide.alt == 'mkt'? <button
-                class="bg-slate-900 px-4 py-2 font-semibold text-white rounded-full hover:bg-sky-800 hover:scale-110 "
-              >
-                Website
-              </button> : <div>
+              {slide.alt == 'mkt'? <a href={slide.link} target="_blank">
                 <button
-                  class="bg-slate-900 px-4 py-2 mr-2 font-semibold text-white rounded-full hover:bg-sky-800 hover:scale-110 "
-                   >
-                  Demo
-                </button>
-                <button
-                  class="bg-slate-900 px-4 py-2 font-semibold text-white rounded-full hover:bg-sky-800  hover:scale-110"
+                  class="bg-slate-900 px-4 py-2 font-semibold text-white rounded-full hover:bg-sky-800 hover:scale-110 "
                 >
-                  Code
+                  Website
                 </button>
+              </a>: <div>
+                <a href={slide.code} target="_blank">
+                  <button
+                    class="bg-slate-900 px-4 py-2 mr-2 font-semibold text-white rounded-full hover:bg-sky-800 hover:scale-110 "
+                     >
+                    Demo
+                  </button>
+                </a>
+                <a href={slide.link} target="_blank">
+                  <button
+                    class="bg-slate-900 px-4 py-2 font-semibold text-white rounded-full hover:bg-sky-800  hover:scale-110"
+                  >
+                    Code
+                  </button>
+                </a>
               </div>}
               
               </div>
