@@ -76,7 +76,7 @@ const slidesInfo = [
       desc:"Website - Alpha Pergamino",
       cat:'Website | React + Tailwindcss',
       link: "https://github.com/luchocas234/alpha-pergamino",
-      code:"https://luchocas234.github.io/alpha-pergamino/",
+      code:"https://luchocas234.github.io/alpha-pergamino",
       info:t("projects.AlphaWeb")
   }
 ]
@@ -147,7 +147,7 @@ const slidesInfo = [
             class="absolute my-rotate-y-180 backface-hidden w-full h-full rounded-lg bg-gray-100 overflow-hidden"
           >
             <div
-              class="text-center  select-none flex flex-col items-center justify-start mt-4  h-full text-gray-800 p-4 "
+              class="text-center  flex flex-col items-center justify-start mt-4  h-full text-gray-800 p-4 "
             >
               <h1 class="text-xl font-semibold mb-4 px-2">{slide.desc}</h1>
               <p className="px-4 text-center">{slide.info}
