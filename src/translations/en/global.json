@@ -1,27 +1,27 @@
 {
-    "cover":{
-        "desc": "Web Developer | Social Media Manager | Private Pilot"
-    },
-    "about":{
-        "title":"Let me tell you something about me",
-        "desc":"I'm passionate about technology and businesses. Always learning trends and updating projects, I love innovation and creative solutions. I have the experience from +5 years working for Entrepreneurs and Local Shops using Digital Marketing to get their goals. I would like to develop webs with the newest technology for your projects. We can create uniques things, let's talk!"
-    },
-    "projects":{
-        "title":"My Projects",
-        "ToDoApp":"In this application you can create, edit and delete tasks. It is made with React and CSS. It is stored in the browser. Each task has its date and time.",
-        "AppAviones":"This app is a hanged style game, where you must guess the image plane, React and CSS is used",
-        "Pilotfy":"I work in this brand in the creation of content for your social networks with the theme of aviation, we have had very good results in the use of educational carousels",
-        "AlphaPergamino":"We have made production of videos, photos and content with the community. I PERFORMANCE ALL THE SOCIAL MEDIA STRATEGY",
-        "AlphaWeb":"I made this website with React and Tailwind CSS for the Alpha Pergamino brand, thus being able to offer its air walking flight services and pilot training"
-
-    },
-    "info":{
-        "text":"Let's work together and create something unique."
-    },
-    "footer":{
-        "city":"Based in Buenos Aires City",
-        "contact":"Contact me",
-        "text":"And let your project starts to fly",
-        "design":"Design By Luciano Castro"
-    }
+  "cover": {
+    "desc": "Web Developer | Social Media Manager | Private Pilot"
+  },
+  "about": {
+    "title": "Let me tell you something about me",
+    "desc": "I'm passionate about technology and businesses. Always learning trends and updating projects, I love innovation and creative solutions. I have the experience from +5 years working for Entrepreneurs and Local Shops using Digital Marketing to get their goals. I would like to develop webs with the newest technology for your projects. We can create uniques things, let's talk!"
+  },
+  "projects": {
+    "title": "My Projects",
+    "ToDoApp": "In this application you can create, edit and delete tasks. It is made with React and CSS. It is stored in the browser. Each task has its date and time.",
+    "AppAviones": "This app is a hanged style game, where you must guess the image plane, React and CSS is used",
+    "Pilotfy": "I work in this brand in the creation of content for your social networks with the theme of aviation, we have had very good results in the use of educational carousels",
+    "AlphaPergamino": "We have made production of videos, photos and content with the community. I PERFORMANCE ALL THE SOCIAL MEDIA STRATEGY",
+    "AlphaWeb": "I made this website with React and Tailwind CSS for the Alpha Pergamino brand, thus being able to offer its air walking flight services and pilot training",
+    "ListaGastos": " This project is a Expenses Manager, you can add Expenses with their category and dates. I used React Hooks, Custom Hooks, Functional Components, Webpack, Tailwind Css, Api Context, React Router, Firebase for Authentication and Firestore Database."
+  },
+  "info": {
+    "text": "Let's work together and create something unique."
+  },
+  "footer": {
+    "city": "Based in Buenos Aires City",
+    "contact": "Contact me",
+    "text": "And let your project starts to fly",
+    "design": "Design By Luciano Castro"
+  }
 }

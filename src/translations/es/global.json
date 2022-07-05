@@ -1,27 +1,27 @@
 {
-    "cover":{
-        "desc": "Desarrollador Web | Social Media Manager | Piloto Privado"
-    },
-    "about":{
-        "title":"Déjame decirte algo sobre mí",
-        "desc":"Me apasiona la tecnología y las empresas. Siempre aprendiendo tendencias y actualizaciones de proyectos, me encanta la innovación y las soluciones creativas. Tengo la experiencia de +5 años trabajando para empresarios y tiendas locales que utilizan marketing digital para obtener sus objetivos. Me gustaría desarrollar redes con la tecnología más nueva para sus proyectos. Podemos crear cosas únicas, ¡hablemos!"
-    },
-    "projects":{
-        "title":"Mis Proyectos",
-        "ToDoApp":"En esta aplicación usted puede crear, editar y borrar tareas. Está hecha con React y Css. Se almacena en el Navegador. Cada tarea tiene su fecha y tiempo.",
-        "AppAviones":"Esta app es un juego estilo ahorcado, donde deberás adivinar el avión de la imagen, se utiliza React y Css",
-        "Pilotfy":"Trabajo en esta marca en la creación de contenido para sus redes sociales con la temática de Aviación, hemos tenido muy buenos resultados en la utilización de carruseles educativos",
-        "AlphaPergamino":"Hemos realizado produción de videos, fotos y contenido con la comunidad. Desempeño toda la estrategia Social Media",
-        "AlphaWeb":"Realicé esta web con React y Tailwind CSS para la marca de Alpha Pergamino, de esa manera poder ofrecer sus servicios de Vuelos de Paseo en Avión y Entrenamientos para Pilotos"
-
-    },
-    "info":{
-        "text":"Trabajemos juntos y creemos algo único."
-    },
-    "footer":{
-        "city":"En Ciudad de Buenos Aires",
-        "contact":"Contactame",
-        "text":"Y que tu proyecto empiece a volar!",
-        "design":"Diseñado por Luciano Castro"
-    }
+  "cover": {
+    "desc": "Desarrollador Web | Social Media Manager | Piloto Privado"
+  },
+  "about": {
+    "title": "Déjame decirte algo sobre mí",
+    "desc": "Me apasiona la tecnología y las empresas. Siempre aprendiendo tendencias y actualizaciones de proyectos, me encanta la innovación y las soluciones creativas. Tengo la experiencia de +5 años trabajando para empresarios y tiendas locales que utilizan marketing digital para obtener sus objetivos. Me gustaría desarrollar redes con la tecnología más nueva para sus proyectos. Podemos crear cosas únicas, ¡hablemos!"
+  },
+  "projects": {
+    "title": "Mis Proyectos",
+    "ToDoApp": "En esta aplicación usted puede crear, editar y borrar tareas. Está hecha con React y Css. Se almacena en el Navegador. Cada tarea tiene su fecha y tiempo.",
+    "AppAviones": "Esta app es un juego estilo ahorcado, donde deberás adivinar el avión de la imagen, se utiliza React y Css",
+    "Pilotfy": "Trabajo en esta marca en la creación de contenido para sus redes sociales con la temática de Aviación, hemos tenido muy buenos resultados en la utilización de carruseles educativos",
+    "AlphaPergamino": "Hemos realizado produción de videos, fotos y contenido con la comunidad. Desempeño toda la estrategia Social Media",
+    "AlphaWeb": "Realicé esta web con React y Tailwind CSS para la marca de Alpha Pergamino, de esa manera poder ofrecer sus servicios de Vuelos de Paseo en Avión y Entrenamientos para Pilotos",
+    "ListaGastos": "Este proyecto es un Administrador de Gastos, puede agregar Gastos con su categoría y fechas. Usé React Hooks, Custom Hooks, Functional Components, Webpack, Tailwind Css, Api Context, React Router, Firebase for Authentication y Firestore Database."
+  },
+  "info": {
+    "text": "Trabajemos juntos y creemos algo único."
+  },
+  "footer": {
+    "city": "En Ciudad de Buenos Aires",
+    "contact": "Contactame",
+    "text": "Y que tu proyecto empiece a volar!",
+    "design": "Diseñado por Luciano Castro"
+  }
 }
