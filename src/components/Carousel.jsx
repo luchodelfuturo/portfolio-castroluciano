@@ -138,7 +138,7 @@ export default function Carousel() {
                       {slide.desc}
                     </h1>
                     <p className="px-4 text-center">{slide.info}</p>
-                    <div className="flex sm:flex-col gap-2 absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-110 ">
+                    <div className="flex z-20 sm:flex-col gap-2 absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-110 ">
                       {slide.alt == "mkt" ? (
                         <a href={slide.link} target="_blank">
                           <button class="bg-slate-900 px-4 py-2 font-semibold text-white rounded-full hover:bg-sky-800 hover:scale-110 ">
