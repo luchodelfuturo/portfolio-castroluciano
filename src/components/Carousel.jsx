@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -7,11 +7,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import img1 from "../media/phprofile.jpeg";
-import img2 from "../media/phprofile.jpeg";
-
-import img3 from "../media/phprofile.jpeg";
-import { Pagination, Navigation, Autoplay } from "swiper";
+import { Navigation, Autoplay } from "swiper";
 import { useTranslation } from "react-i18next";
 
 import AlphaWeb from "../media/projects/AlphaWeb.png";
@@ -115,7 +111,7 @@ export default function Carousel() {
           },
         }}
         modules={[Navigation, Autoplay]}
-        className="w-full h-[40vh] sm:h-[50vh] md:h-[50vh]  "
+        className="w-full h-[50vh] sm:h-[50vh] md:h-[50vh]  "
       >
         {slidesInfo.map((slide) => (
           <SwiperSlide>
@@ -125,6 +121,7 @@ export default function Carousel() {
                   <img
                     src={slide.src}
                     class="w-full h-full rounded-lg object-cover object-center"
+                    alt="none"
                   />
                   <div className="absolute bottom-0 right-0  rounded-tl-lg flex text-center justify-center items-center px-8 py-4 bg-slate-900/80">
                     <h3 className="font-semibold text-white drow-shadow-lg ">
@@ -139,7 +136,7 @@ export default function Carousel() {
                     </h1>
                     <p className="px-4 text-center">{slide.info}</p>
                     <div className="flex z-20 sm:flex-col gap-2 absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-110 ">
-                      {slide.alt == "mkt" ? (
+                      {slide.alt === "mkt" ? (
                         <a href={slide.link} target="_blank">
                           <button class="bg-slate-900 px-4 py-2 font-semibold text-white rounded-full hover:bg-sky-800 hover:scale-110 ">
                             Website
