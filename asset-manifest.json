@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio-castroluciano/static/css/main.2b14bf2a.css",
-    "main.js": "/portfolio-castroluciano/static/js/main.588f4efd.js",
+    "main.js": "/portfolio-castroluciano/static/js/main.e3aa0dd9.js",
     "static/media/coverVideo.mp4": "/portfolio-castroluciano/static/media/coverVideo.c8ee34ab50343a71f804.mp4",
     "static/media/ToDoApp.png": "/portfolio-castroluciano/static/media/ToDoApp.88979359dce42b75ee5e.png",
     "static/media/AlphaWeb.png": "/portfolio-castroluciano/static/media/AlphaWeb.d0cd14e303dc6b7bdea4.png",
     "static/media/AlphaIg.png": "/portfolio-castroluciano/static/media/AlphaIg.9b6ce6fa2b423e98f66e.png",
     "static/media/AeronauticsWords.png": "/portfolio-castroluciano/static/media/AeronauticsWords.25d590560937f0b2724c.png",
+    "static/media/genesis.png": "/portfolio-castroluciano/static/media/genesis.17edea9465112280f0e6.png",
     "static/media/phprofile.jpeg": "/portfolio-castroluciano/static/media/phprofile.66c3306ee8233f6c4d73.jpeg",
     "static/media/Pilotfy.png": "/portfolio-castroluciano/static/media/Pilotfy.31f83a7be63e072b87f8.png",
     "static/media/ListaGastos.png": "/portfolio-castroluciano/static/media/ListaGastos.80604feaec1fc863d1c3.png",
@@ -20,10 +21,10 @@
     "static/media/html5.svg": "/portfolio-castroluciano/static/media/html5.8664168d5bc90b1a24396f85aadbf623.svg",
     "static/media/figma.svg": "/portfolio-castroluciano/static/media/figma.2c2c9d7ff067a3272fbcb7e4700d15a6.svg",
     "main.2b14bf2a.css.map": "/portfolio-castroluciano/static/css/main.2b14bf2a.css.map",
-    "main.588f4efd.js.map": "/portfolio-castroluciano/static/js/main.588f4efd.js.map"
+    "main.e3aa0dd9.js.map": "/portfolio-castroluciano/static/js/main.e3aa0dd9.js.map"
   },
   "entrypoints": [
     "static/css/main.2b14bf2a.css",
-    "static/js/main.588f4efd.js"
+    "static/js/main.e3aa0dd9.js"
   ]
 }
