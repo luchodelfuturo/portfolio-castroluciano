@@ -21,7 +21,7 @@ export default function About() {
             {t("about.title")}
           </h3>
           <p className=" md:text-xl text-justify my-4 ">{t("about.desc")}</p>
-          <div className="w-full flex flex-col justify-center items-center">
+          <div className="w-full flex flex-col justify-center items-center mt-4">
             <p className=" text-start">Front End Skills:</p>
 
             <div className=" w-full grid grid-cols-3 md:grid-cols-6 gap-2 justify-center items-center mt-4">
@@ -90,7 +90,7 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-2 w-full justify-around items-center my-6">
+          <div className="flex flex-col gap-2 w-full justify-around items-center mb-6">
             <p>Tools:</p>
             <div className="flex gap-2 w-full justify-around mt-2">
               <img src={photoshopLogo} alt="logo" className="w-10 h-10" />
@@ -101,7 +101,7 @@ export default function About() {
         </div>
         <div className="flex justify-center items-center object-cover px-8">
           <img
-            className=" w-full h-[40vh] object-cover md:h-[60vh] rounded-lg "
+            className=" w-full h-[40vh] object-cover md:h-full rounded-lg "
             src={ph}
             alt=""
           />
