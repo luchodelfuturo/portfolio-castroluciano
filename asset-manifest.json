@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-castroluciano/static/css/main.3e3b3934.css",
-    "main.js": "/portfolio-castroluciano/static/js/main.35f7873f.js",
+    "main.css": "/portfolio-castroluciano/static/css/main.35cd379f.css",
+    "main.js": "/portfolio-castroluciano/static/js/main.a926fb73.js",
     "static/media/coverVideo.mp4": "/portfolio-castroluciano/static/media/coverVideo.c8ee34ab50343a71f804.mp4",
     "static/media/ToDoApp.png": "/portfolio-castroluciano/static/media/ToDoApp.88979359dce42b75ee5e.png",
     "static/media/AlphaWeb.png": "/portfolio-castroluciano/static/media/AlphaWeb.d0cd14e303dc6b7bdea4.png",
@@ -10,12 +10,20 @@
     "static/media/phprofile.jpeg": "/portfolio-castroluciano/static/media/phprofile.66c3306ee8233f6c4d73.jpeg",
     "static/media/Pilotfy.png": "/portfolio-castroluciano/static/media/Pilotfy.31f83a7be63e072b87f8.png",
     "static/media/ListaGastos.png": "/portfolio-castroluciano/static/media/ListaGastos.80604feaec1fc863d1c3.png",
+    "static/media/ai.png": "/portfolio-castroluciano/static/media/ai.1d2f0e2c0eeefaf00df3.png",
+    "static/media/react.svg": "/portfolio-castroluciano/static/media/react.4e0c97009b885bfa75c5412262a46f5f.svg",
+    "static/media/photoshop.svg": "/portfolio-castroluciano/static/media/photoshop.1274ffaf1f86a470be0a35d3558f4a01.svg",
+    "static/media/js.svg": "/portfolio-castroluciano/static/media/js.bacc3387f463f5b56f433827347c6155.svg",
     "index.html": "/portfolio-castroluciano/index.html",
-    "main.3e3b3934.css.map": "/portfolio-castroluciano/static/css/main.3e3b3934.css.map",
-    "main.35f7873f.js.map": "/portfolio-castroluciano/static/js/main.35f7873f.js.map"
+    "static/media/css3-original.svg": "/portfolio-castroluciano/static/media/css3-original.39769a8bd378bf410d6b381a8d88fa35.svg",
+    "static/media/tailwindcss.svg": "/portfolio-castroluciano/static/media/tailwindcss.e7b4a92d5aefbddd6f0651c024144be2.svg",
+    "static/media/html5.svg": "/portfolio-castroluciano/static/media/html5.8664168d5bc90b1a24396f85aadbf623.svg",
+    "static/media/figma.svg": "/portfolio-castroluciano/static/media/figma.2c2c9d7ff067a3272fbcb7e4700d15a6.svg",
+    "main.35cd379f.css.map": "/portfolio-castroluciano/static/css/main.35cd379f.css.map",
+    "main.a926fb73.js.map": "/portfolio-castroluciano/static/js/main.a926fb73.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e3b3934.css",
-    "static/js/main.35f7873f.js"
+    "static/css/main.35cd379f.css",
+    "static/js/main.a926fb73.js"
   ]
 }
