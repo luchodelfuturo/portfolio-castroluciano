@@ -16,6 +16,7 @@ import ToDoApp from "../media/projects/ToDoApp.png";
 import Pilotfy from "../media/projects/Pilotfy.png";
 import AlphaIg from "../media/projects/AlphaIg.png";
 import ListaGastos from "../media/projects/ListaGastos.png";
+import Genesis from "../media/projects/genesis.png";
 
 // import required modules
 
@@ -74,6 +75,15 @@ export default function Carousel() {
       link: "https://github.com/luchocas234/app_gastos_firebase",
       code: "https://app-lista-de-gastos-lc.web.app/",
       info: t("projects.ListaGastos"),
+    },
+    {
+      src: Genesis,
+      alt: "Genesis Aviacion",
+      desc: "Website - Genesis Aviacion",
+      cat: "Website | NextJs + Tailwindcss",
+      link: "https://github.com/luchocas234/aviacion-genesis-web",
+      code: "https://genesisaviacion.vercel.app/",
+      info: t("projects.Genesis"),
     },
   ];
 
