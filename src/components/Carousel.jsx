@@ -104,19 +104,19 @@ export default function Carousel() {
         }}
         breakpoints={{
           640: {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 20,
           },
           900: {
-            slidesPerView: 3,
+            slidesPerView: 2,
             spaceBetween: 10,
           },
           1024: {
-            slidesPerView: 4,
+            slidesPerView: 2,
             spaceBetween: 30,
           },
           1300: {
-            slidesPerView: 4,
+            slidesPerView: 2,
             spaceBetween: 30,
           },
         }}
