@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-castroluciano/static/css/main.2b14bf2a.css",
-    "main.js": "/portfolio-castroluciano/static/js/main.e3aa0dd9.js",
+    "main.js": "/portfolio-castroluciano/static/js/main.b691fdd0.js",
     "static/media/coverVideo.mp4": "/portfolio-castroluciano/static/media/coverVideo.c8ee34ab50343a71f804.mp4",
     "static/media/ToDoApp.png": "/portfolio-castroluciano/static/media/ToDoApp.88979359dce42b75ee5e.png",
     "static/media/AlphaWeb.png": "/portfolio-castroluciano/static/media/AlphaWeb.d0cd14e303dc6b7bdea4.png",
@@ -21,10 +21,10 @@
     "static/media/html5.svg": "/portfolio-castroluciano/static/media/html5.8664168d5bc90b1a24396f85aadbf623.svg",
     "static/media/figma.svg": "/portfolio-castroluciano/static/media/figma.2c2c9d7ff067a3272fbcb7e4700d15a6.svg",
     "main.2b14bf2a.css.map": "/portfolio-castroluciano/static/css/main.2b14bf2a.css.map",
-    "main.e3aa0dd9.js.map": "/portfolio-castroluciano/static/js/main.e3aa0dd9.js.map"
+    "main.b691fdd0.js.map": "/portfolio-castroluciano/static/js/main.b691fdd0.js.map"
   },
   "entrypoints": [
     "static/css/main.2b14bf2a.css",
-    "static/js/main.e3aa0dd9.js"
+    "static/js/main.b691fdd0.js"
   ]
 }
