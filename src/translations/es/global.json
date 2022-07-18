@@ -14,7 +14,8 @@
     "AlphaPergamino": "Hemos realizado produción de videos, fotos y contenido con la comunidad. Desempeño toda la estrategia Social Media",
     "AlphaWeb": "Realicé esta web con React y Tailwind CSS para la marca de Alpha Pergamino, de esa manera poder ofrecer sus servicios de Vuelos de Paseo en Avión y Entrenamientos para Pilotos",
     "ListaGastos": "Este proyecto es un Administrador de Gastos, puede agregar Gastos con su categoría y fechas. Usé React Hooks, Custom Hooks, Functional Components, Webpack, Tailwind Css, Api Context, React Router, Firebase for Authentication y Firestore Database.",
-    "Genesis": "Realicé esta web con Next Js y Tailwind CSS para la marca de Genesis Aviacion, de esa manera poder ofrecer sus servicios de escuela de vuelo."
+    "Genesis": "Realicé esta web con Next Js y Tailwind CSS para la marca de Genesis Aviacion, de esa manera poder ofrecer sus servicios de escuela de vuelo.",
+    "Pokeapp": "Este proyecto se realiza en el marco de la aceleración de la Alkemy. Utilizamos una variante del patrón de diseño MVVM, solicitudes de API y patrones como delegado."
   },
   "info": {
     "text": "Trabajemos juntos y creemos algo único."

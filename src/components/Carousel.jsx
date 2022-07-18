@@ -17,6 +17,7 @@ import Pilotfy from "../media/projects/Pilotfy.png";
 import AlphaIg from "../media/projects/AlphaIg.png";
 import ListaGastos from "../media/projects/ListaGastos.png";
 import Genesis from "../media/projects/genesis.png";
+import PokeApp from "../media/projects/poke-ios.png";
 
 // import required modules
 
@@ -84,6 +85,14 @@ export default function Carousel() {
       link: "https://github.com/luchocas234/aviacion-genesis-web",
       code: "https://genesisaviacion.vercel.app/",
       info: t("projects.Genesis"),
+    },
+    {
+      src: PokeApp,
+      alt: "mkt",
+      desc: "iOS App - PokeApp",
+      cat: "iOS | Programmatically UI",
+      link: "https://github.com/luchocas234/pokeapp-ios",
+      info: t("projects.Pokeapp"),
     },
   ];
 
