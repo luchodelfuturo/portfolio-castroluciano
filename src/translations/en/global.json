@@ -1,10 +1,14 @@
 {
   "cover": {
-    "desc": "iOS Developer | Frontend React developer"
+    "desc": "iOS Developer | Frontend React developer",
+    "desc2": "Coding on the ground, flying in the sky"
+
   },
   "about": {
-    "title": "Let me tell you something about me",
-    "desc": "I'm passionate about technology and businesses. Always learning trends and updating projects, I love innovation and creative solutions. I have the experience from +5 years working for Entrepreneurs and Local Shops using Digital Marketing to get their goals. I would like to develop webs with the newest technology for your projects. We can create uniques things, let's talk!"
+    "title": "Let me tell you a bit about myself",
+    "desc1": "From the open skies of aviation to the endless lines of code, I've found my two passions. As I soared through the skies as a pilot, I simultaneously ascended in the realm of web development and digital marketing. This unique blend has given me a distinctive view of the world and business.",
+    "desc2": "With over 5 years of experience in the digital realm, I've assisted entrepreneurs and local shops in reaching their goals online. I'm perpetually on the hunt for the latest trends and updates to provide innovative and creative solutions.",
+    "desc3": "My aim is straightforward: to intertwine technology, business, and skies. Ready to embark on this journey with me and let your ideas take flight? Let's chat!"
   },
   "projects": {
     "title": "My Projects",

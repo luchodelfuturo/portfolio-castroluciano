@@ -1,11 +1,15 @@
 {
   "cover": {
-    "desc": "iOS Developer | Frontend React developer "
+    "desc": "iOS Developer | Frontend React developer ",
+    "desc2": "Codificando en tierra, volando en el cielo"
   },
   "about": {
     "title": "Déjame decirte algo sobre mí",
-    "desc": "Me apasiona la tecnología y las empresas. Siempre aprendiendo tendencias y actualizaciones de proyectos, me encanta la innovación y las soluciones creativas. Tengo la experiencia de +5 años trabajando para empresarios y tiendas locales que utilizan marketing digital para obtener sus objetivos. Me gustaría desarrollar redes con la tecnología más nueva para sus proyectos. Podemos crear cosas únicas, ¡hablemos!"
+    "desc1": "Desde los cielos abiertos de la aviación hasta las infinitas líneas de código, he encontrado mis dos pasiones. Mientras surcaba los cielos como piloto, paralelamente me elevaba en el universo del desarrollo web y el marketing digital. Esta combinación me ha permitido ver el mundo y los negocios desde una perspectiva única.",
+    "desc2": "Con más de 5 años de experiencia en el mundo digital, he ayudado a empresarios y tiendas locales a alcanzar sus metas en el espacio online. Siempre estoy en la búsqueda de las últimas tendencias y actualizaciones para brindar soluciones creativas e innovadoras.",
+    "desc3": "Mi objetivo es simple: conectar tecnología, negocios y cielos. ¿Listo para embarcarte en esta aventura conmigo y hacer que tus ideas despeguen? ¡Hablemos!"
   },
+
   "projects": {
     "title": "Mis Proyectos",
     "ToDoApp": "En esta aplicación usted puede crear, editar y borrar tareas. Está hecha con React y Css. Se almacena en el Navegador. Cada tarea tiene su fecha y tiempo.",

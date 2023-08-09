@@ -29,6 +29,7 @@ export default function Cover() {
         <div className="absolute top-0 w-full h-full flex flex-col justify-center text-center text-white p-4">
           <h1 className="text-5xl"> Luciano Castro</h1>
           <p className="text-2xl"> {t("cover.desc")}</p>
+          <p className="text-xl"> {t("cover.desc2")}</p>
         </div>
       </div>
     </div>

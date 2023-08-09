@@ -20,7 +20,9 @@ export default function About() {
           <h3 className=" text-3xl md:text-4xl font-bold text-left">
             {t("about.title")}
           </h3>
-          <p className=" md:text-xl text-justify my-4 ">{t("about.desc")}</p>
+          <p className=" md:text-xl text-justify my-4 ">{t("about.desc1")}</p>
+          <p className=" md:text-xl text-justify my-4 ">{t("about.desc2")}</p>
+          <p className=" md:text-xl text-justify my-4 ">{t("about.desc3")}</p>
           <div className="w-full flex flex-col justify-center items-center mt-4">
             <p className=" text-start">Front End Skills:</p>
 

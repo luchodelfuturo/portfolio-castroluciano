@@ -30,7 +30,7 @@ const toTheTop = ()=>{
 
 
   return (
-    <nav className={`w-full fixed z-10 h-[80px] bg-transparent top-0  text-2xl px-4 flex justify-between transition-[0,8s] ${isScrolling > 20 ? "bg-[#000000] drow-shadow-2xl transition-[0,8s] z-20"  : null}`}>
+    <nav className={`w-full fixed z-10 h-[80px] bg-transparent top-0  text-2xl px-8 flex justify-between transition-[0,8s] ${isScrolling > 20 ? "bg-[#000000] drow-shadow-2xl transition-[0,8s] z-20"  : null}`}>
         <div className='h-full text-white cursor-pointer flex justify-center items-center ml-4' onClick={toTheTop}>L | C</div>
         
         <div className='text-white flex justify-center items-center  mr-2 gap-4'>
