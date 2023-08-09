@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio-castroluciano/static/css/main.2b14bf2a.css",
-    "main.js": "/portfolio-castroluciano/static/js/main.6abae8a2.js",
+    "main.css": "/portfolio-castroluciano/static/css/main.9887457e.css",
+    "main.js": "/portfolio-castroluciano/static/js/main.8ddb8041.js",
     "static/media/coverVideo.mp4": "/portfolio-castroluciano/static/media/coverVideo.c8ee34ab50343a71f804.mp4",
+    "static/media/placeholder.jpg": "/portfolio-castroluciano/static/media/placeholder.f3e0dbb3fcc9f31ab5fc.jpg",
     "static/media/ToDoApp.png": "/portfolio-castroluciano/static/media/ToDoApp.88979359dce42b75ee5e.png",
     "static/media/AlphaWeb.png": "/portfolio-castroluciano/static/media/AlphaWeb.d0cd14e303dc6b7bdea4.png",
     "static/media/AlphaIg.png": "/portfolio-castroluciano/static/media/AlphaIg.9b6ce6fa2b423e98f66e.png",
@@ -21,11 +22,11 @@
     "static/media/tailwindcss.svg": "/portfolio-castroluciano/static/media/tailwindcss.e7b4a92d5aefbddd6f0651c024144be2.svg",
     "static/media/html5.svg": "/portfolio-castroluciano/static/media/html5.8664168d5bc90b1a24396f85aadbf623.svg",
     "static/media/figma.svg": "/portfolio-castroluciano/static/media/figma.2c2c9d7ff067a3272fbcb7e4700d15a6.svg",
-    "main.2b14bf2a.css.map": "/portfolio-castroluciano/static/css/main.2b14bf2a.css.map",
-    "main.6abae8a2.js.map": "/portfolio-castroluciano/static/js/main.6abae8a2.js.map"
+    "main.9887457e.css.map": "/portfolio-castroluciano/static/css/main.9887457e.css.map",
+    "main.8ddb8041.js.map": "/portfolio-castroluciano/static/js/main.8ddb8041.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b14bf2a.css",
-    "static/js/main.6abae8a2.js"
+    "static/css/main.9887457e.css",
+    "static/js/main.8ddb8041.js"
   ]
 }
