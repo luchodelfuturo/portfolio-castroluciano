@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { useState } from "react";
 
 export default function Navbar({ isScrolling }) {
-  const [i18n] = useTranslation("global");
+  const [t, i18n] = useTranslation("global");
   const [idiom, setIdiom] = useState(true);
 
   const handleChange = () => {

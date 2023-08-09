@@ -2,7 +2,6 @@
   "cover": {
     "desc": "iOS Developer | Frontend React developer",
     "desc2": "Coding on the ground, flying in the sky"
-
   },
   "about": {
     "title": "Let me tell you a bit about myself",
@@ -19,13 +18,19 @@
     "AlphaWeb": "I made this website with React and Tailwind CSS for the Alpha Pergamino brand, thus being able to offer its air walking flight services and pilot training",
     "ListaGastos": " This project is a Expenses Manager, you can add Expenses with their category and dates. I used React Hooks, Custom Hooks, Functional Components, Webpack, Tailwind Css, Api Context, React Router, Firebase for Authentication and Firestore Database.",
     "Genesis": "I made this website with Next Js and Tailwind CSS for the Genesis Aviation brand, thus being able to offer its flight school services",
-    "Pokeapp": "This project is made in the framework of the Alkemy Pre-acceleration. We use a variant of the MVVM design pattern, API requests and patterns such as Delegate."
+    "Pokeapp": "This project is made in the framework of the Alkemy Pre-acceleration. We use a variant of the MVVM design pattern, API requests and patterns such as Delegate.",
+    "filters": {
+      "all": "All",
+      "websAviation": "Aviation Webs",
+      "mktAviation": "Aviation Mkt",
+      "otherApps": "Other Apps"
+    }
   },
   "info": {
-    "text": "Let's work together and create something unique."
+    "text": "Let's connect our worlds: technology and the skies. Let's work together to create something exceptional."
   },
   "footer": {
-    "city": "Based in S.M of Tucumán City",
+    "city": "Based in Pergamino City, Buenos Aires",
     "contact": "Contact me",
     "text": "And let your project starts to fly",
     "design": "Design By Luciano Castro"

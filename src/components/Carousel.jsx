@@ -21,7 +21,7 @@ import PokeApp from "../media/projects/poke-ios.png";
 
 // import required modules
 
-export default function Carousel() {
+export default function Carousel({ filter }) {
   const [t] = useTranslation("global");
 
   const slidesInfo = [
@@ -38,7 +38,7 @@ export default function Carousel() {
       src: AeronauticsWords,
       alt: "Project3",
       desc: "App - Adivina el Avión",
-      cat: "App | React + Css",
+      cat: "Website | React + Css",
       link: "https://github.com/luchocas234/aeronauticswords",
       code: "https://luchocas234.github.io/aeronauticswords/",
       info: t("projects.AppAviones"),
@@ -96,6 +96,24 @@ export default function Carousel() {
     },
   ];
 
+  const filterSlides = (slides) => {
+    switch (filter) {
+      case "all":
+        return slides;
+      case "websAviation":
+        return slides.filter((slide) => slide.cat.includes("Website"));
+      case "mktAviation":
+        return slides.filter((slide) => slide.cat.includes("Marketing"));
+      case "otherApps":
+        return slides.filter((slide) => slide.cat.includes("App"));
+      default:
+        return slides;
+    }
+  };
+
+  // Filtramos las diapositivas antes de renderizarlas
+  const displayedSlides = filterSlides(slidesInfo);
+
   return (
     <>
       <Swiper
@@ -132,7 +150,7 @@ export default function Carousel() {
         modules={[Navigation, Autoplay]}
         className="w-full h-[50vh] sm:h-[50vh] md:h-[50vh]  "
       >
-        {slidesInfo.map((slide) => (
+        {displayedSlides.map((slide) => (
           <SwiperSlide>
             <div class="w-full h-full bg-transparent cursor-grab group perspective ">
               <div class="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000 rounded-lg">
@@ -181,19 +199,7 @@ export default function Carousel() {
               </div>
             </div>
           </SwiperSlide>
-
-          // <SwiperSlide>
-          //   <img className="w-full h-full object-cover object-center select-none hover:scale-110 hover:transition-[0,8s] transition-[0,8s]" src={slide.src}/>
-          // </SwiperSlide>
         ))}
-
-        {/* <SwiperSlide><img className="w-full h-full object-cover hover:scale-110" src={img1} alt="" /></SwiperSlide>
-        <SwiperSlide><img className="w-full h-full object-cover hover:scale-110" src={img2} alt="" /></SwiperSlide>
-        <SwiperSlide><img className="w-full h-full object-cover hover:scale-110" src={img3} alt="" /></SwiperSlide>
-        <SwiperSlide><img className="w-full h-full object-cover hover:scale-110" src={img3} alt="" /></SwiperSlide>
-
-        <SwiperSlide><img className="w-full h-full object-cover hover:scale-110" src={img3} alt="" /></SwiperSlide>
- */}
       </Swiper>
     </>
   );
